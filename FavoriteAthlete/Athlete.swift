@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Meal {
+struct Athlete {
     var name: String
     var age: Int
     var league: String
@@ -16,6 +16,5 @@ struct Meal {
     var description: String {
         return "\(name) is \(age) years old and plays for the \(team) in the \(league)."
     }
-
+    
 }
-
